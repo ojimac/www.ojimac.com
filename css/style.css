@@ -134,4 +134,13 @@ ul.list-medium li {
 .minibox.red {
 	background-color: #c43c35;
 }
+.small {
+	color: #777777;
+	font-size: 9px;
+}
+.medium {
+	color: #444444;
+	font-size: 11px;
+	margin: 0px 0px 0px 10px;
+}
 /* class end */
