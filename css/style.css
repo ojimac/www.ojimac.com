@@ -51,17 +51,16 @@ table {
 }
 /* reset css end */
 
+/* tag start */
 body {
 	font: normal 100% Cambria, Georgia, serif;
 	color: #2C2C2C;
 }
-
 h1 {
 	color: #000000;
 	font-size: 2.5em;
 	font-weight: bold;
 }
-
 h2 {
 	font-size: 1.3em;
 	color: #666666;
@@ -78,14 +77,22 @@ h1 a:hover {
 a {
 	color: #20f;
 }
+a:hover {
+	text-decoration: none;
+}
 img {
 	border: 0;
 }
+/* tag end*/
 
+/* id start */
 #page {
 	margin: 36px auto;
 	width: 90%;
 }
+/* id end */
+
+/* class start */
 .container {
 	margin: 0 auto 53px;
 	width: 93.75%;  /* 900px / 960px */
@@ -114,17 +121,17 @@ ul.list-medium {
 ul.list-medium li {
 }
 .minibox {
-  padding: 1px 3px 2px;
-  margin: 1px;
-  background-color: #bfbfbf;
-  font-size: 9.75px;
-  font-weight: bold;
-  color: #ffffff;
-  text-transform: uppercase;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+	padding: 1px 3px 2px;
+	background-color: #bfbfbf;
+	font-size: 9.75px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
 }
 .minibox.red {
-  background-color: #c43c35;
+	background-color: #c43c35;
 }
+/* class end */
