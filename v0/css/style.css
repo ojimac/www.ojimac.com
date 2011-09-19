@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+  *color: #333333;
+  *font-family: Georgia, serif;
+  color: #666;
+  font: italic normal normal 18px/22px Georgia, Palatino, serif;
+  padding: 0;
+}
+
+a {
+    color: #20f;
+}
+
+img {
+    border: 0;
+}
