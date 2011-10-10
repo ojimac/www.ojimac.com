@@ -101,17 +101,21 @@ img {
 	padding: 0.8em 5.33333333%; /* 48px / 900px */
 }
 .footer {
-	padding: 0.8em 5.33333333%; /* 48px / 900px */
+	border-top: 1px solid #CCCCCC;
+	padding: 20px 8.48056537% 0px 8.48056537%;  /* 48px / 566px */
+	*padding: 0.8em 5.33333333%; /* 48px / 900px */
 }
 .content {
-	padding: 40px 8.48056537% 0px 8.48056537%;  /* 48px / 566px */
+	padding: 20px 8.48056537% 0px 8.48056537%;  /* 48px / 566px */
 }
+
 ul.list {
 	padding: 0 20px;
 	font-size: 1.2em;
 	*color: #777777;
 }
 ul.list li {
+	margin: 0 0 5px 0;
 }
 ul.list-medium {
 	padding: 20px 40px;
@@ -119,6 +123,13 @@ ul.list-medium {
 	color: #222222;
 }
 ul.list-medium li {
+}
+ul.list-footer {
+}
+ul.list-footer li{
+	margin: 0 20px 0 0;
+	list-style: none;
+	float: left;
 }
 .minibox {
 	padding: 1px 3px 2px;
