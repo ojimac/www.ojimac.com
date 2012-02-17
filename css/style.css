@@ -137,13 +137,16 @@ ul.list-footer li{
 	font-size: 9.75px;
 	font-weight: bold;
 	color: #ffffff;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 }
 .minibox.red {
 	background-color: #c43c35;
+}
+.minibox.blue {
+	background-color: #3A87AD;
 }
 .small {
 	color: #777777;
