@@ -142,7 +142,6 @@ ul.list-footer li{
   padding: 1px 3px 2px;
   background-color: #bfbfbf;
   font-size: 9.75px;
-  font-weight: bold;
   color: #ffffff;
   /*text-transform: uppercase;*/
   -webkit-border-radius: 2px;
@@ -154,6 +153,9 @@ ul.list-footer li{
 }
 .minibox.blue {
   background-color: #3A87AD;
+}
+.minibox.green {
+  background-color: #5BB75B;
 }
 .small {
   color: #777777;
