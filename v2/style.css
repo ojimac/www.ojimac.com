@@ -76,9 +76,10 @@ h1 a:hover {
 }
 a {
   color: #FE2E9A;
+  text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 img {
   border: 0;
